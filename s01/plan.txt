@@ -1,0 +1,29 @@
+selecteur {
+    prop : val ;
+    prop : val ;
+
+}
+
+1 selecteurs: 
+
+#selecteurs simples : 
+
+nom h1{} p{} ...
+id : identifiant (cin) #..{}
+classes : .demo{}
+*{
+
+}
+
+selecteurs complexes ?
+
+Les couleurs : 
+
+
+noms : red; orange; blue; ...
+
+#FF14E3 (0->FF)
+
+rgb(rouge,vert,blue) : 0 255
+
+rgba(rouge,vert,blue,alpha) alpha : 0.1

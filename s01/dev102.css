@@ -1,0 +1,36 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.demo1{
+    text-align: justify;
+    
+}
+
+#dev102{
+    color: red;
+}
+
+#dev101{
+    color: green;
+}
+
+.monstyle{
+    text-align: center;
+    font-size: 40px;
+}
+
+*{
+    background-color: aqua;
+}
+
+#circle{
+    width: 50px; 
+    height: 50px;
+    /* background:#E48B2 */;
+    /* background:rgb(255,255,0); */
+    /* alpha : 0 1 */
+    background:rgba(0,0,0,0.1);
+    border-radius:50%;
+}
+
