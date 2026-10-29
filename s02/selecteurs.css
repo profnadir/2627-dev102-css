@@ -1,0 +1,33 @@
+h1, p {
+    color: red;
+}
+
+div ~ p{
+    background-color: yellow;
+}
+
+div h3 > i{
+    color: green;
+}
+
+p.demo1 + ul{
+    color: aqua;
+}
+
+
+
+
+/* Les éléments <a> avec un attribut title */
+a[title=ofppt3] { color : purple; }
+
+
+/* Les éléments <a> avec un href qui correspond à "https ://example.org" */
+a[href="https://example.org"] { color : green; }
+
+
+/* Les éléments <a> dont href finit par ".org" */
+a[href$=".ma"] { font-style : italic; }
+
+a[href^="https"] { background-color: yellow; }
+
+

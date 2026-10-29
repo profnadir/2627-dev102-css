@@ -1,0 +1,137 @@
+/* Propriété font-style : spécifie un texte en italique. 
+    Valeurs possibles : normal, italic, oblique. */
+.fs-normal{
+    font-style: normal;
+}
+
+.fs-italic{
+    font-style: italic;
+}
+
+.fs-oblique{
+    font-style: oblique 9deg;
+}
+
+.fv-normal{
+    font-variant: normal;
+}
+
+.fv-small-caps{
+    font-variant: small-caps;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Valeurs numériques */
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
+
+/* Valeurs nommées */
+.fw-normal  { font-weight: normal; }
+.fw-bold    { font-weight: bold; }
+.fw-bolder  { font-weight: bolder; }
+.fw-lighter { font-weight: lighter; }
+
+/* white-space */
+.wts-normal { white-space: normal; }
+.wts-pre    { white-space: pre; }
+
+.dev101{
+    white-space: pre;
+}
+
+/* word-spacing */
+.ws-normal { word-spacing: normal; }
+.ws-2  { word-spacing: 2px; }
+.ws-5  { word-spacing: 5px; }
+.ws-10 { word-spacing: 10px; }
+.ws-20 { word-spacing: 20px; }
+
+/* letter-spacing */
+.ls-normal { letter-spacing: normal; }
+.ls-1  { letter-spacing: 1px; }
+.ls-2  { letter-spacing: 2px; }
+.ls-5  { letter-spacing: 5px; }
+.ls-10 { letter-spacing: 10px; }
+.ls--2 { letter-spacing: -2px; }
+
+/* text-decoration */
+.td-none  { text-decoration: none; }
+.td-under { text-decoration: underline; }
+.td-over  { text-decoration: overline; }
+.td-line  { text-decoration: line-through; }
+
+.lien{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid black;
+}
+.lien:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+/* text-transform */
+.tt-none       { text-transform: none; }
+.tt-uppercase  { text-transform: uppercase; }
+.tt-lowercase  { text-transform: lowercase; }
+.tt-capitalize { text-transform: capitalize; }
+
+.center{
+    text-align: center;
+    color: red;
+}
+/* text-indent */
+.ti-0  { text-indent: 0; }
+.ti-10 { text-indent: 10px; }
+.ti-20 { text-indent: 20px; }
+.ti-50 { text-indent: 50px; }
+.ti-100 { text-indent: 100px; }
+
+/* line-height */
+.lh-normal { line-height: normal; }
+.lh-20 { line-height: 20px; }
+.lh-30 { line-height: 30px; }
+.lh-40 { line-height: 40px; }
+.lh-60 { line-height: 60px; }
+
+.sub{
+    vertical-align: sub;
+}
+
+.sup{
+    vertical-align: super;
+}
+
+img { width: 40px; height: 40px; background: #ccc; }
+
+.va-baseline    { vertical-align: baseline; }
+.va-top         { vertical-align: top; }
+.va-middle      { vertical-align: middle; }
+.va-bottom      { vertical-align: bottom; }
+.va-super       { vertical-align: super; }
+.va-sub         { vertical-align: sub; }
+.va-text-top    { vertical-align: text-top;}
+.va-text-bottom { vertical-align: text-bottom; }

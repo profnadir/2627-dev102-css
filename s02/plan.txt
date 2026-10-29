@@ -1,0 +1,52 @@
+Rappel : 
+
+html : structure  de la page
+CSS : mise en forme des pages web
+
+comment lier html avec css: 
+
+* <p style="..." >
+* head <style></style>
+*fichier séparé : style.css link ********
+
+selecteur(1) {
+    propriété : valeur;(2)
+    propriété : valeur;
+    propriété : valeur;
+}
+
+backgroud, color, font-family, font-style, ...
+
+(1) : selecteurs simples:
+
+-> nom h1{} .class{} #id{}
+
+selecteurs complexes : 
+
+*{
+    // tous les élements de la page
+}
+
+div p {
+
+}
+
+div + p{
+
+}
+
+div > p{
+
+}
+
+div, p {
+
+}
+
+div > h1 i {
+
+}
+
+?????
+
+(2) les propriétés text : 
